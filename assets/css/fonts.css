@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'laxr-font';
+    src: url('https://xmoaaz.github.io/LAXR_font/LAXR.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserrat-arabic';
+    src: url('https://xmoaaz.github.io/LAXR_font/Montserrat-Arabic-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'montserrat-arabic';
+    font-weight: 500;
+}
+#app h2,
+#app h3 {
+    font-family: 'laxr-font';
+}

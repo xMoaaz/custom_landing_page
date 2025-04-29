@@ -1,0 +1,82 @@
+/* whole page intro */
+.page-intro {
+    background-image: url(../images/intro-page-bg.png);
+    background-size: cover;
+
+    /* animation */
+    transition: 0.7s;
+}
+.page-intro__container {
+    max-width: 82vw;
+    margin: auto;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+}
+.page-intro__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* page-intro__heading */
+.page-intro__heading {
+    text-align: center;
+}
+.page-intro__heading h2 {
+    font-size: 10vw;
+    margin-top: 1vh;
+}
+.page-intro__heading .azzrk-logo {
+    margin: auto;
+    width: 18vw;
+}
+.page-intro p {
+    text-align: start;
+    margin-top: 4vh;
+    font-size: 3.7vw;
+    line-height: 4vh;
+    font-weight: bold;
+}
+/* page-intro__highlight */
+.page-intro__highlight {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15vh;
+}
+.page-intro__highlight h3 {
+    font-size: 5vw;
+}
+.page-intro__highlight h2 {
+    font-size: 21vw;
+    line-height: 30vw;
+    padding-right: 5vw;
+    margin-top: 3vh;
+}
+
+/* page-intro__desc */
+.page-intro__desc {
+    margin-top: 5vh;
+}
+
+/* page-intro__arrow-next */
+.page-intro__arrow-next {
+    margin-top: 10vh;
+    background-color: #fff;
+    padding: 3vw;
+    border-radius: 50%;
+    align-self: start;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.page-intro__cta {
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+}
+.page-intro__arrow-next:active {
+    opacity: 0.7;
+    transform: translateY(0.5vh);
+}
+.page-intro__arrow-next img {
+    width: 10vw;
+}

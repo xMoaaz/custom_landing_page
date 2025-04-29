@@ -1,0 +1,23 @@
+:root {
+    --color-primary: #007aff;
+}
+
+html {
+    direction: rtl;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 700;
+}
+
+.page-intro p {
+    word-spacing: 0.2vw;
+}
+.page-intro h2,
+.page-intro h3 {
+    word-spacing: 1vw;
+}
